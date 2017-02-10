@@ -19,7 +19,7 @@
                 android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Viaggio al centro della terra"
+                android:text="Ciccio Cipolla"
                 android:textSize="24dp"/>
             <LinearLayout
                 android:padding="10dp"
@@ -30,19 +30,23 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Uscita nelle sale" />
+                    android:textSize="16dp"
+                    android:id="@+id/location_TV"
+                    android:text="Via Sandro Sandri,Roma" />
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="16/07/2016"
+                    android:textSize="16dp"
+                    android:text="Ltm11"
                     android:gravity="end"/>
             </LinearLayout>
             <TextView
                 android:padding="10dp"
                 android:layout_width="wrap_content"
+                android:id="@+id/number_TV"
                 android:layout_height="wrap_content"
-                android:text="@string/text"
+                android:text="3272079936"
                 />
             <LinearLayout
                 android:layout_gravity="end"
@@ -51,7 +55,15 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/button"/>
+                    android:id="@+id/go_BTN"
+                    style = "@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Go"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/call_BTN"
+                    style = "@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Call"/>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
