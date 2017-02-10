@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Ciao come va\? Ciccio</string>
+    <string name="button">Prenota</string>
+    <string name="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget eros sed nulla dignissim mollis. Vestibulum sagittis scelerisque turpis. Donec et nisi at nisi vulputate bibendum id quis justo. Duis imperdiet quis dolor eget posuere. Nulla consequat, neque at mollis interdum, elit nibh pretium ligula, eu dignissim ante tellus id. </string>
+</resources>
